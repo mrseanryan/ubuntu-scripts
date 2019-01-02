@@ -19,20 +19,18 @@ yarn --version
 
 echo === net-tools for ifconfig ===
 sudo apt install net-tools
-echo This IP address
-ifconfig
 
 echo === vsftpd for ftp server ===
 sudo apt install vsftpd
 
 sudo apt-get install filezilla
 
-sudo cp config/ftp/vsftpd.config /etc/vsftpd.conf
-sudo cp config/ftp/vsftpd.chroot_list /etc/vsftpd.chroot_list
+sudo cp ./config/ftp/vsftpd.conf /etc/vsftpd.conf
+sudo cp ./config/ftp/vsftpd.chroot_list /etc/vsftpd.chroot_list
 
 sudo systemctl restart vsftpd
 
-mkdir public_ftp
+mkdir ~/public_ftp
 
 echo === dot ===
 sudo apt install graphviz
@@ -45,3 +43,7 @@ echo === done ===
 echo To add ftp user to this file
 echo run this command
 echo 'sudo pico /etc/vsftpd.chroot_list'
+
+echo Then you can ftp into this IP address
+
+ifconfig
