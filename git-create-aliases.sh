@@ -10,7 +10,7 @@ git config --global alias.ci commit
 git config --global --unset alias.st
 git config --global alias.st status
 
-REM unstages (index) but does not modify working directory - (it is without --HARD)
+# unstages (index) but does not modify working directory - (it is without --HARD)
 git config --global --unset alias.unstage
 git config --global alias.unstage "reset HEAD --"
 
