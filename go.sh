@@ -21,7 +21,7 @@ echo ---=== Add xclip ... ===---
 
 ./install-xclip.sh
 
-if [ $1 -eq '--docker' ]
+if [ $1 == '--docker' ]
     then
         echo ---=== Add docker ... ===---
 
