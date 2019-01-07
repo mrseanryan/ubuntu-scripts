@@ -10,5 +10,5 @@ chmod +x ~/bin/docker-compose
 source ~/.profile
 
 # Add alias for immediate use
-echo alias docker-compose=~/bin/docker-compose > ~/.bashrc
+echo alias docker-compose=~/bin/docker-compose >> ~/.bashrc
 source ~/.bashrc
