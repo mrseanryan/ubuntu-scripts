@@ -27,10 +27,26 @@ _note: probably NOT suitable for a production box!_
 
 ## usage
 
+The 'clever' way:
+
 ```
 sudo apt install curl
 
 curl -o- https://raw.githubusercontent.com/mrseanryan/ubuntu-scripts/master/install.sh | bash
+```
+
+OR if that fails:
+
+```
+sudo apt-get update
+
+sudo apt install git
+
+git clone https://github.com/mrseanryan/ubuntu-scripts.git
+
+cd ubuntu-scripts
+
+./go.sh
 ```
 
 ## authors
