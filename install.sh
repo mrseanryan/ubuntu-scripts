@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 { # this ensures the entire script is downloaded #
-sudo apt-get --yes --force-yes update
+sudo apt-get --yes --allow-downgrades update
 
-sudo apt --yes --force-yes install git
+sudo apt --yes --allow-downgrades install git
 
 git clone https://github.com/mrseanryan/ubuntu-scripts.git
 
