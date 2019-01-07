@@ -1,6 +1,15 @@
 # ubuntu-scripts readme
 
-A few simple scripts to setup a basic git/nodejs dev environment on Ubuntu.
+A few simple scripts to setup a basic dev environment on Ubuntu:
+
+- Visual Code
+- ftp server to easily transfer files
+- git aliases and credential caching
+- network tools like: curl, ifconfig
+- graphviz
+- npm, yarn
+
+_note: probably NOT suitable for a production box!_
 
 ## usage
 
