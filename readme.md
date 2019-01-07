@@ -54,6 +54,19 @@ cd ubuntu-scripts
 
 _note: if you also want docker installed, instead use `go.sh --docker`_
 
+## known issues
+
+### Visual Code is not installed
+
+The Visual Code install script involves some prompts which fail to show when installed via `curl`.
+
+To fix, run the script:
+
+```
+cd ubuntu-scripts
+./install-visual-code.sh
+```
+
 ## authors
 
 Original work by Sean Ryan - mr.sean.ryan(at gmail.com)
