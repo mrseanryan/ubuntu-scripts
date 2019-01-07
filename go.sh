@@ -17,5 +17,9 @@ echo ---=== Add nvm, node 8 ... ===---
 
 ./install-nvm-and-node-8.sh
 
+echo ---=== Add xclip ... ===---
+
+./install-xclip.sh
+
 echo ---=== done ===---
 
