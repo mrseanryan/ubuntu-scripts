@@ -13,5 +13,9 @@ echo ---=== Add Visual Code ... ===---
 
 ./install-visual-code.sh
 
+echo ---=== Add nvm, node 8 ... ===---
+
+./install-nvm-and-node-8.sh
+
 echo ---=== done ===---
 

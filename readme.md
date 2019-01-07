@@ -8,6 +8,7 @@ A few simple scripts to setup a basic dev environment on Ubuntu:
 - network tools like: curl, ifconfig
 - graphviz
 - npm, yarn
+- nvm, node 8 (latest)
 
 _note: probably NOT suitable for a production box!_
 
