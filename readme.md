@@ -36,7 +36,7 @@ sudo apt install curl
 curl -o- https://raw.githubusercontent.com/mrseanryan/ubuntu-scripts/master/install.sh | bash
 ```
 
-_note: if you also want docker installed, instead used `install-with-docker.sh`_
+_note: if you also want docker installed, instead use `install-with-docker.sh`_
 
 OR if that fails:
 
