@@ -1,8 +1,12 @@
-echo === git ===
+echo === git and git lfs ===
 
 sudo apt-get update
 
 sudo apt install git
+
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+git lfs install
 
 echo === yarn ===
 sudo apt install curl
