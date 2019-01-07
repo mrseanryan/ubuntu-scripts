@@ -8,3 +8,4 @@ chmod +x ~/bin/docker-compose
 
 # To make sure ~/bin is in PATH
 source ~/.profile
+
