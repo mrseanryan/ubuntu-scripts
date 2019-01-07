@@ -21,10 +21,13 @@ echo ---=== Add xclip ... ===---
 
 ./install-xclip.sh
 
-echo ---=== Add docker ... ===---
+if [ $1 -eq '--docker' ]
+    then
+        echo ---=== Add docker ... ===---
 
-./install-docker.sh
-./install-docker-compose.sh
+        ./install-docker.sh
+        ./install-docker-compose.sh
+fi
 
 echo ---=== done ===---
 

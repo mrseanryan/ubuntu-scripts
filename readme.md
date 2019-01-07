@@ -7,6 +7,7 @@ A few simple scripts to setup a basic dev environment on Ubuntu.
 Tested on Ubuntu 18.04
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/mrseanryan)
 
 ## features
@@ -35,6 +36,8 @@ sudo apt install curl
 curl -o- https://raw.githubusercontent.com/mrseanryan/ubuntu-scripts/master/install.sh | bash
 ```
 
+_note: if you also want docker installed, instead used `install-with-docker.sh`_
+
 OR if that fails:
 
 ```
@@ -49,6 +52,8 @@ cd ubuntu-scripts
 ./go.sh
 ```
 
+_note: if you also want docker installed, instead use `go.sh --docker`_
+
 ## authors
 
 Original work by Sean Ryan - mr.sean.ryan(at gmail.com)
@@ -56,4 +61,3 @@ Original work by Sean Ryan - mr.sean.ryan(at gmail.com)
 ## licence = MIT
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
