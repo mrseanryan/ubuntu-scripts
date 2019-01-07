@@ -28,15 +28,9 @@ _note: probably NOT suitable for a production box!_
 ## usage
 
 ```
-sudo apt-get update
+sudo apt install curl
 
-sudo apt install git
-
-git clone https://github.com/mrseanryan/ubuntu-scripts.git
-
-cd ubuntu-scripts
-
-./go.sh
+curl -o- https://raw.githubusercontent.com/mrseanryan/ubuntu-scripts/master/install.sh | bash
 ```
 
 ## authors
