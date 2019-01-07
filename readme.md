@@ -13,13 +13,15 @@ Tested on Ubuntu 18.04
 
 Installs the following:
 
-- Visual Code
+- docker and docker-compose
 - ftp server to easily transfer files
+- git and git lfs
 - git aliases and credential caching
-- network tools like: curl, ifconfig
 - graphviz
+- network tools like: curl, ifconfig
 - npm, yarn
 - nvm, node 8 (latest)
+- Visual Code
 
 _note: probably NOT suitable for a production box!_
 

@@ -21,5 +21,9 @@ echo ---=== Add xclip ... ===---
 
 ./install-xclip.sh
 
+echo ---=== Add docker ... ===---
+
+./install-docker.sh
+
 echo ---=== done ===---
 
