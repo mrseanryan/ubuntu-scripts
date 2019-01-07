@@ -5,7 +5,9 @@ sudo apt-get --yes --allow-downgrades install ubuntu-make
 
 umake ide visual-studio-code
 
-alias code=~/.local/share/umake/ide/visual-studio-code/bin/code
+echo alias code=~/.local/share/umake/ide/visual-studio-code/bin/code > ~/.bashrc
+
+source ~/.bashrc
 
 echo Type 'code' to launch Visual Code
 
