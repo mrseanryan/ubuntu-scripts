@@ -7,3 +7,7 @@ echo '  sudo pico /etc/vsftpd.chroot_list'
 
 echo Then you can ftp into this IP address
 
+echo You may need to restart this terminal OR execute:
+echo '  source ~/.profile'
+
+
