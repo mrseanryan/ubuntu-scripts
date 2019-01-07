@@ -67,6 +67,14 @@ cd ubuntu-scripts
 ./install-visual-code.sh
 ```
 
+### docker-compose version is hard-coded in script
+
+The scripts will install the latest `docker` but not the latest `docker-compose`.
+
+You may need to edit the version of `docker-compose` in this script, and then run it again:
+
+`install-docker-compose.sh`
+
 ## authors
 
 Original work by Sean Ryan - mr.sean.ryan(at gmail.com)
