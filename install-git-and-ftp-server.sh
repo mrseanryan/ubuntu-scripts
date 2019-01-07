@@ -42,12 +42,3 @@ sudo apt install graphviz
 echo === npm ===
 sudo apt install npm
 
-echo === done ===
-
-echo To add ftp user to this file
-echo run this command
-echo 'sudo pico /etc/vsftpd.chroot_list'
-
-echo Then you can ftp into this IP address
-
-ifconfig
