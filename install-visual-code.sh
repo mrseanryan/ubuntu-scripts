@@ -1,7 +1,7 @@
 
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
-sudo apt-get update
-sudo apt-get install ubuntu-make
+sudo apt-get --yes --force-yes update
+sudo apt-get --yes --force-yes install ubuntu-make
 
 umake ide visual-studio-code
 
