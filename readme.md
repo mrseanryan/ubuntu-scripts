@@ -1,6 +1,17 @@
 # ubuntu-scripts readme
 
-A few simple scripts to setup a basic dev environment on Ubuntu:
+A few simple scripts to setup a basic dev environment on Ubuntu.
+
+## status - stable
+
+Tested on Ubuntu 18.04
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/mrseanryan)
+
+## features
+
+Installs the following:
 
 - Visual Code
 - ftp server to easily transfer files
@@ -25,3 +36,12 @@ cd ubuntu-scripts
 
 ./go.sh
 ```
+
+## authors
+
+Original work by Sean Ryan - mr.sean.ryan(at gmail.com)
+
+## licence = MIT
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
