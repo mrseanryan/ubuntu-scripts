@@ -1,5 +1,5 @@
-echo ---=== Installing stuff ... ===---
-./install-stuff.sh
+echo ---=== Installing git and ftp server ... ===---
+./install-git-and-ftp-server.sh
 
 echo ---=== Configuring git ... ===---
 
@@ -9,4 +9,9 @@ echo ---=== Add git aliases ... ===---
 
 ./git-create-aliases.sh
 
+echo ---=== Add Visual Code ... ===---
+
+./install-visual-code.sh
+
 echo ---=== done ===---
+
