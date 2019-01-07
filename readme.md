@@ -1,4 +1,4 @@
-# ubuntu-scripts readme
+# :scroll: ubuntu-scripts readme
 
 A few simple scripts to setup a basic dev environment on Ubuntu.
 
