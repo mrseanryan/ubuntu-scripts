@@ -1,14 +1,9 @@
 # permission denied at /usr/local/bin/docker-compose
-# so using ~/bin
+# so using /usr/bin/
 
-mkdir -p ~/bin
+TMP=`mktemp -d 2>/dev/null || mkdtemp -d -t 'temp'`
 
-curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` > ~/bin/docker-compose
-chmod +x ~/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` > $TMP/docker-compose
+chmod +x $TMP/docker-compose
 
-# To make sure ~/bin is in PATH (but requires logout/in ?)
-source ~/.profile
-
-# Add alias for immediate use
-echo alias docker-compose=~/bin/docker-compose >> ~/.bashrc
-source ~/.bashrc
+sudo mv $TMP/docker-compose /usr/bin/
