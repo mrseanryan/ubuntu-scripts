@@ -54,6 +54,15 @@ cd ubuntu-scripts
 
 _note: if you also want docker installed, instead use `go.sh --docker`_
 
+## extras
+
+To install XRDP to allow Remote Desktop from Windows:
+
+```
+cd ubuntu-scripts
+./extra-install-xrdp.sh
+```
+
 ## known issues
 
 ### Visual Code is not installed
