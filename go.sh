@@ -3,11 +3,11 @@ echo ---=== Installing git and ftp server ... ===---
 
 echo ---=== Configuring git ... ===---
 
-./git-enable-credential-caching.sh
+./git/git-enable-credential-caching.sh
 
 echo ---=== Add git aliases ... ===---
 
-./git-create-aliases.sh
+./git/git-create-aliases.sh
 
 echo ---=== Add Visual Code ... ===---
 
