@@ -13,7 +13,7 @@ VIOLET='\[\033[01;35m\]'
  
 function color_my_prompt {
   local __user_and_host="$GREEN\u@\h"
-  local __cur_location="$BLUE\W"           # capital 'W': current directory, small 'w': full file path
+  local __cur_location="$BLUE\w"           # capital 'W': current directory, small 'w': full file path
   local __git_branch_color="$GREEN"
   local __prompt_tail="$VIOLET$"
   local __user_input_color="$GREEN"
