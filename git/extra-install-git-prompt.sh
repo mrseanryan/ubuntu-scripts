@@ -18,5 +18,7 @@ echo $ would indicate that you have stashed files.
 
 echo [done] Install git prompt
 
-# re-login to bash 
+./_disable_terminal_theme_colors.sh
+
+# finally, re-login to bash 
 bash -l
