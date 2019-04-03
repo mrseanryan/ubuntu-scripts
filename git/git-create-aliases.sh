@@ -34,3 +34,9 @@ git config --global alias.logs "log --decorate=short --format=oneline --abbrev-c
 
 git config --global --unset alias.la
 git config --global alias.la "config --get-regexp alias"
+
+git config --global --unset alias.dc
+git config --global alias.dc "diff --cached"
+
+git config --global --unset alias.ap
+git config --global alias.ap "add -p"
