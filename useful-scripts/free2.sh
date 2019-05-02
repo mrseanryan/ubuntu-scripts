@@ -1,0 +1,2 @@
+free -h
+df -H
