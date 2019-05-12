@@ -2,14 +2,14 @@
 
 ./_ensure-home-bin.sh
 
-echo Create free2.sh script
-PATH_TO_FREE=$HOME/bin/free2.sh
-echo free -h > $PATH_TO_FREE
-echo df -H >> $PATH_TO_FREE
-chmod +x $PATH_TO_FREE
+echo Copying some useful scripts to ~/bin
+
+cp useful-scripts/* ~/bin
 
 echo export PATH="\$HOME/bin:\$PATH" >> $HOME/.bashrc
 
 pushd git
-./extra-install-git-prompt.sh
+./extra-install-git-prompt.sh &
 popd
+
+ls ~/bin
