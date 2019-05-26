@@ -40,3 +40,6 @@ git config --global alias.dc "diff --cached"
 
 git config --global --unset alias.ap
 git config --global alias.ap "add -p"
+
+git config --global --unset alias.cp
+git config --global alias.cp "cherry-pick"
