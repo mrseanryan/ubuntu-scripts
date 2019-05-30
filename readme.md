@@ -15,7 +15,6 @@ Tested on Ubuntu 18.04
 Installs the following:
 
 - docker and docker-compose
-- ftp server to easily transfer files (SCP port 22 - needs ssh login to be setup)
 - git and git lfs
 - git aliases and credential caching
 - graphviz
@@ -23,6 +22,13 @@ Installs the following:
 - npm, yarn
 - nvm, node 8 (latest)
 - Visual Code
+
+Extras can also be installed:
+
+- ftp server to easily transfer files (SCP port 22 - needs ssh login to be setup)
+- xrdp (for remote desktop)
+- chrome, chrome driver
+- useful user scripts
 
 _note: probably NOT suitable for a production box!_
 

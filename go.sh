@@ -1,5 +1,5 @@
-echo ---=== Installing git and ftp server ... ===---
-./install-git-and-ftp-server.sh
+echo ---=== Installing git, yarn ... ===---
+./install-git-yarn-etc.sh
 
 echo ---=== Configuring git ... ===---
 
