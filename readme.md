@@ -80,6 +80,22 @@ cd ubuntu-scripts
 https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
 https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 
+### tips about ssh
+
+- test login:
+
+`ssh -v user@hostname`
+
+- to use a hostname for a VM: for VM hosted on Windows, edit Windows hosts file to map IP to host
+
+- this line or similar may need to be disabled in `/etc/ssh/sshd_config`
+
+`Subsystem        sftp    /usr/lib/openssh/sftp-server`
+
+- client side can specify identity file, if more than one key on client:
+
+`ssh user@host -i path-to-rsa`
+
 ### setting up ftp (scp)
 
 `./extra-install-ftp-server.sh`
