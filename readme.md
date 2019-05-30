@@ -77,6 +77,7 @@ FTP over SCP (using ssh) is enabled for local users.
 
 This requires setting up login via ssh:
 
+https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
 https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 
 #### references about ssh, ftp
