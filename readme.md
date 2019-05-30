@@ -15,7 +15,7 @@ Tested on Ubuntu 18.04
 Installs the following:
 
 - docker and docker-compose
-- ftp server to easily transfer files
+- ftp server to easily transfer files (SCP port 22 - needs ssh login to be setup)
 - git and git lfs
 - git aliases and credential caching
 - graphviz
@@ -62,6 +62,22 @@ To install XRDP to allow Remote Desktop from Windows:
 cd ubuntu-scripts
 ./extra-install-xrdp.sh
 ```
+
+### setting up ssh login (needed for ftp over scp)
+
+Anonymous and plain ftp are disabled, since they are not secure.
+
+FTP over SCP (using ssh) is enabled for local users.
+
+This requires setting up login via ssh:
+
+https://help.ubuntu.com/community/SSH/OpenSSH/Keys
+
+#### references about ssh, ftp
+
+https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
+http://xmodulo.com/secure-ftp-service-vsftpd-linux.html
+https://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/
 
 ## known issues
 
