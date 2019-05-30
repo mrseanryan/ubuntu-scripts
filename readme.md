@@ -71,14 +71,24 @@ cd ubuntu-scripts
 
 ### setting up ssh login (needed for ftp over scp)
 
+`./extra-install-ssh-server.sh`
+
+`sudo ./extra-configure-ssh-server.sh` (only run this once!)
+
+- then setup client side, and test from the client:
+
+https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
+https://help.ubuntu.com/community/SSH/OpenSSH/Keys
+
+### setting up ftp (scp)
+
+`./extra-install-ftp-server.sh`
+
 Anonymous and plain ftp are disabled, since they are not secure.
 
 FTP over SCP (using ssh) is enabled for local users.
 
-This requires setting up login via ssh:
-
-https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
-https://help.ubuntu.com/community/SSH/OpenSSH/Keys
+This requires setting up login via ssh (previous section).
 
 #### references about ssh, ftp
 
@@ -86,6 +96,12 @@ https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
 http://xmodulo.com/secure-ftp-service-vsftpd-linux.html
 https://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/
 https://www.linode.com/community/questions/485/ssh-service-is-failing-to-start
+
+### Visual Code - remote development
+
+With `ssh` set up, it is possible to use Visual Code remotely:
+
+https://code.visualstudio.com/docs/remote/remote-overview
 
 ## known issues
 

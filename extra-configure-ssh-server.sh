@@ -1,4 +1,4 @@
-echo needs sudo
+echo "!this script needs to run with sudo!"
 
 CONFIG=/etc/ssh/sshd_config
 
