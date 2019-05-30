@@ -4,19 +4,22 @@ CONFIG=/etc/ssh/sshd_config
 
 echo "# BEGIN CUSTOM CONFIG" >> $CONFIG
 
-echo AllowTcpForwarding no >> $CONFIG
+echo "# yes - for VC remote" >> $CONFIG
+echo AllowTcpForwarding yes >> $CONFIG
 
 echo X11Forwarding no >> $CONFIG
 
-# This actually uses root for $USER, which is not useful
+# This script run under sudo, so actually uses root for $USER, which is not useful
 echo "# TODO - AllowUsers $USER" >> $CONFIG
+
+echo ! TODO - adjust AllowUsers in $CONFIG !
 
 echo Banner /etc/issue.net >> $CONFIG
 
 echo PubkeyAuthentication yes >> $CONFIG
 echo RSAAuthentication yes >> $CONFIG
 
-cat $CONFIG
+# cat $CONFIG
 
 cat config/login-banner.txt >> /etc/issue.net
 
