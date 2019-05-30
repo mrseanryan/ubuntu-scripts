@@ -8,4 +8,4 @@ sudo cp ./config/ftp/vsftpd.chroot_list /etc/vsftpd.chroot_list
 
 sudo systemctl restart vsftpd
 
-mkdir ~/public_ftp
+mkdir -p ~/public_ftp
