@@ -43,3 +43,10 @@ git config --global alias.ap "add -p"
 
 git config --global --unset alias.cp
 git config --global alias.cp "cherry-pick"
+
+echo "# git aliases" >> ~/.bashrc
+echo "alias gs='git status'" >> ~/.bashrc
+echo "alias gr='git rebase'" >> ~/.bashrc
+echo "alias grc='git rebase --continue'" >> ~/.bashrc
+
+source ~/.bashrc
