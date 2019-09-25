@@ -48,5 +48,6 @@ echo "# git aliases" >> ~/.bashrc
 echo "alias gst='git status'" >> ~/.bashrc
 echo "alias gr='git rebase'" >> ~/.bashrc
 echo "alias grc='git rebase --continue'" >> ~/.bashrc
+echo "alias gup='git fetch && git pull'" >> ~/.bashrc
 
 source ~/.bashrc
