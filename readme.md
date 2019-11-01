@@ -98,13 +98,17 @@ https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 
 ### setting up ftp (scp)
 
-`./extra-install-ftp-server.sh`
+`./extra-install-ftp-server-NOT-secure.sh`
+
+`extra-install-ftp-secure-the-ftp-server.sh`
 
 Anonymous and plain ftp are disabled, since they are not secure.
 
 FTP over SCP (using ssh) is enabled for local users.
 
 This requires setting up login via ssh (previous section).
+
+Unless you add user name to `/etc/vsftpd.chroot_list` (not recommended)
 
 #### references about ssh, ftp
 
