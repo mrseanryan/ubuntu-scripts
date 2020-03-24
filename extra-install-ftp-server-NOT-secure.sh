@@ -3,8 +3,12 @@ sudo apt --yes --allow-downgrades install vsftpd
 
 sudo apt-get --yes --allow-downgrades install filezilla
 
-#sudo cp ./config/ftp/vsftpd.conf /etc/vsftpd.conf
-#sudo cp ./config/ftp/vsftpd.chroot_list /etc/vsftpd.chroot_list
+if [ ! -f /etc/vsftpd.conf.bak ]; then
+  sudo mv /etc/vsftpd.conf /etc/vsftpd.conf.bak
+fi
+
+sudo cp ./config/ftp/vsftpd.conf /etc/vsftpd.conf
+sudo cp ./config/ftp/vsftpd.chroot_list /etc/vsftpd.chroot_list
 
 sudo systemctl restart vsftpd
 
