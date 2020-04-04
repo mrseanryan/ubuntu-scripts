@@ -29,6 +29,10 @@ if [ $1 == '--docker' ]
         ./install-docker-compose.sh
 fi
 
+echo ---=== cleanup ===---
+
+sudo apt autoremove
+
 echo ---=== done ===---
 
 ./done.sh
