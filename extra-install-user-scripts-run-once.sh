@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-./_extra-install-user-scripts./sh
+./_extra-install-user-scripts.sh
 
 echo export PATH="\$HOME/bin:\$PATH" >> $HOME/.bashrc
 
