@@ -15,4 +15,13 @@ This is precompiled and downloaded from github.
 
 origin = https://github.com/antonmedv/countdown/releases
 
+The current binary works ok on Ubuntu.
 
+To install for Mac:
+```
+brew install go
+
+go get github.com/antonmedv/countdown
+
+chomd +x countdown
+```
