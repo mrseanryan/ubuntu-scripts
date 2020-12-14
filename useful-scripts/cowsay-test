@@ -1,0 +1,1 @@
+cowsay -e "pQ" "Whoopsa-daisy." > /tmp/xxx-cow-say.txt && cat /tmp/xxx-cow-say.txt

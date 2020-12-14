@@ -1,0 +1,1 @@
+cowsay -f dragon "Run for cover, I feel a sneeze coming on." > /tmp/xxx-dragon-say.txt && cat /tmp/xxx-dragon-say.txt
