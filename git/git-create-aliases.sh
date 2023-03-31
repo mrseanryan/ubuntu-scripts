@@ -1,5 +1,8 @@
 git config --global --unset alias.cfg
-git config --global alias.cfg config --list
+git config --global alias.cfg "config --list"
+
+git config --global --unset alias.cfgo
+git config --global alias.cfgo "config --list --show-origin"
 
 git config --global --unset alias.co
 git config --global alias.co checkout
