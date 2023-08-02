@@ -29,6 +29,10 @@ if [ $1 == '--docker' ]
         ./install-docker-compose.sh
 fi
 
+echo ---=== Add stacer ... ===---
+
+sudo apt install stacer
+
 echo ---=== cleanup ===---
 
 sudo apt autoremove
