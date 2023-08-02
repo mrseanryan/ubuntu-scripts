@@ -4,7 +4,7 @@ A few simple scripts to setup a basic dev environment on Ubuntu.
 
 ## status - stable
 
-Tested on Ubuntu 18.04
+Tested on Ubuntu 18.04, 22.04 LTS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
